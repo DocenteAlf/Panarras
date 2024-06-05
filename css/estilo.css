@@ -1,0 +1,30 @@
+		#cabezon_izda {background-color: #000;height: 400px; width: 50%; float: left;}
+		#cabezon_dcha {background-color: #000;height: 400px; width: 50%; float: left; text-align: center;}
+		#foto_portada {height: 400px;}
+		.logotipo {width: 150px;}
+		.mensaje_01 {color: #FFF; font-size: 3.5em;}
+		.mensaje_02 {color: #FFF; font-size: 1.8em;}
+		#btn_subscribe {color: #FFF; background-color: #2874A6; width: 120px; margin: 30px auto; border-radius: 50px;}
+
+		#menu_item_01 {float: left; background-color: grey; width: 80%;}		
+		#menu_item {float: left; background-color: grey; width: 5%;}		
+		.enlace_menu {color: #EFEFEF; text-decoration: none;}
+		.pagina_actual {background-color: green;}
+
+		aside {float: left; width: 10%;}
+		article {float: left;width: 90%; height: 300px;}
+
+		#bloque_panes {width: 20%; float: left; margin: 50px 2.5%; text-align: center; background-color: #D6EAF8;}
+		#imagen_pan {padding-top: 10px; height: 200px;}
+		#tipo_pan {height: 40px; background-color: #5499C7; color: #D6EAF8; font-family: "Garamond"; font-size: 2em;}
+		#Precio_pan {height: 50px; font-family: "Garamond"; font-size: 1.5em; padding-top: 10px;}
+
+		main {font-family: arial; font-size: 1.2em; color: grey; text-align: justify;}
+		#titulo2 {font-size: 1.8em; color: #000000; text-align: left; padding: 15px 0px;}
+		#titulo3 {font-size: 1.4em; color: #000000; text-align: left;  padding: 15px 0px;}
+		#cita {font-size: 0.6em;}
+		#parrafo_normal {width: 80%; margin: 20px auto;}
+
+		#foto_receta_fianlizada {height: 500px;}
+		#foto_receta {text-align: center;}
+		#foto_paso_receta {width: 300px;}

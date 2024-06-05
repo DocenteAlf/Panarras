@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		
+	</title>
+	<style>
+
+		#cuerpo {width: 80%; height: 1200px; background-color: #EFEFEF; margin: 0 auto;}
+		header {color: #FFFFFF;}
+/*
+		#cabecera_izda {width: 40%; height: 400px; background-color: #000000; float: left; background-image: url("imagenes/Foto_de_portada.png"); background-size: 100%}	
+*/		
+		#cabecera_izda {width: 40%; height: 400px; background-color: #000000; float: left;}
+		#cabecera_dcha {width: 60%; height: 400px; background-color: #000000; float: left;}
+		#logo_cabecera, #titulo_cabecera, #text_cabecera {text-align: center;}
+		#logo {height: 150px; padding-top: 40px;}
+		#titulo_cabecera {font-family: "arial"; font-size: 3em;}
+		#text_cabecera {font-family: "arial"; font-size: 1.5em; padding: 20px;}
+		#botoncillo {width: 100px; height: 30px; margin: 20px auto; background-color: #2874A6; border-radius: 3px;padding-top: 5px;}
+		.foto_pan {height: 180px; border-radius: 100px;}
+
+		#menu_item_01 {float: left; background-color: grey; width: 80%;}		
+		#menu_item {float: left; background-color: grey; width: 5%;}		
+		.enlace_menu {color: #EFEFEF; text-decoration: none;}
+		.pagina_actual {background-color: green;}
+
+		article {width: 90%; height: 300px;margin: 10px auto; background-color: blue; border: 1px solid blue;}
+
+		#bloque_panes {width: 20%; float: left; margin: 50px 2.5%; text-align: center; background-color: #D6EAF8;}
+		#imagen_pan {padding-top: 10px; height: 200px;}
+		#tipo_pan {height: 40px; background-color: #5499C7; color: #D6EAF8; font-family: "Garamond"; font-size: 2em;}
+		#Precio_pan {height: 50px; font-family: "Garamond"; font-size: 1.5em; padding-top: 10px;}
+
+	</style>
+</head>
+<body>
+	<div id="cuerpo">
+		<header>
+			<div id="cabecera_izda">
+				<br><br>
+				<img id="foto_cabecera" src="imagenes/Foto_de_portada.png" height="360px">
+				
+			</div>
+			<div id="cabecera_dcha">
+				<div id="logo_cabecera">
+					<img id="logo" src="./imagenes/Logo_panarra.png">
+				</div>
+				<div id="titulo_cabecera">
+					Panarras del mundo
+				</div>				
+				<div id="text_cabecera">
+					Recetas y curiosidades relacionadas con los panes.
+				</div>
+				<div id="botoncillo">
+					<center>
+						Subscribirme
+					</center>
+				</div>				
+			</div>
+		</header>
+		<nav>
+		<nav>
+				<div id="menu_item_01">&nbsp;</div>							
+				<div id="menu_item"><a href="#" class="enlace_menu">INICIO</a></div>
+				<div id="menu_item"><a href="./receta_pan_brioche.html" class="enlace_menu">RECETAS</a></div>
+				<div id="menu_item"><a href="#" class="enlace_menu">TIENDA</a></div>
+				<div id="menu_item"><a href="#" class="enlace_menu">TRUCOS</a></div>				
+		</nav>		
+		</nav>
+		<main>
+			<article>
+				<section id="bloque_panes">
+					<div id="imagen_pan">
+						<img class="foto_pan" src="./imagenes/barra_de_pan.webp" alt="barra de pan blanco">
+					</div>
+					<div id="tipo_pan">Barra de pan blanco</div>
+					<div id="Precio_pan">1.20€</div>
+				</section>
+				<section  id="bloque_panes">
+					<div id="imagen_pan">
+						<img class="foto_pan"src="./imagenes/pan_blanco.png" alt="panecillos harina blanca">
+					</div>
+					<div id="tipo_pan">Panecillos de harina blanca</div>
+					<div id="Precio_pan">0.4 €</div>
+				</section>
+				<section  id="bloque_panes">
+					<div id="imagen_pan">
+						<img class="foto_pan" src="./imagenes/pan_trigo_sarraceno.png" alt="pan con harrina de trigo sarraceno">
+					</div>
+					<div id="tipo_pan">Pan de trigo sarraceno</div>
+					<div id="Precio_pan">4.50 €</div>
+				</section>
+				<section  id="bloque_panes">
+					<div id="imagen_pan">
+						<img class="foto_pan" src="./imagenes/pan_candela.jpg" alt="Pan candela">
+					</div>
+					<div id="tipo_pan">Pan Candela</div>
+					<div id="Precio_pan">6.29 €</div>
+				</section>												
+			</article>
+		</main>
+		<footer></footer>
+	</div>
+
+</body>
+</html>
